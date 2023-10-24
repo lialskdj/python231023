@@ -64,5 +64,11 @@ print("---- 수열함수 ----")
 print(list(range(2000,2024)))
 print(list(range(1,32)))
 
-for i in range(999):
+for i in range(10):
     print(i)
+
+print("---- 리스트 함축 ----")
+list = list(range(1,11))
+print([i**3 for i in lst if i>5 if i<9])
+fruit = ("apple", "orange", "kiwi")
+print([len(i) for i in fruit])
