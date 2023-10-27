@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['생성자와 소멸자.py'],
+    ['form2.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -21,7 +21,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='생성자와 소멸자',
+    name='form2',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
